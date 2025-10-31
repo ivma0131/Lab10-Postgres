@@ -1,5 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import './App.css'
 
 // Axios instance using environment base URL (e.g., http://localhost:4000/api)
 const api = axios.create({
